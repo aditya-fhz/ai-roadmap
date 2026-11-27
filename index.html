@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#101827" />
+        <title>AI Engineer — 90-Day Learning Path</title>
+        <meta
+            name="description"
+            content="Roadmap belajar AI Engineer selama 90 hari, lengkap dengan materi, praktik, progress, dan proyek portfolio."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <header class="topbar">
+            <div class="container topbar-inner">
+                <a class="brand" href="#" aria-label="AI Engineer roadmap">
+                    <span class="brand-mark">ai<span>.</span></span>
+                    <span class="brand-copy"
+                        >FIELD GUIDE <b> / AI ENGINEER</b></span
+                    >
+                </a>
+                <nav class="topnav" aria-label="Navigasi utama">
+                    <a href="#roadmap">Learning path</a
+                    ><a href="#jadwal">Ritme belajar</a
+                    ><a href="#tools">Toolkit</a><a href="#faq">FAQ</a>
+                </nav>
+                <button id="themeBtn" class="theme-btn" aria-label="Ganti tema">
+                    ☼
+                </button>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-noise"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <div class="eyebrow">
+                        <span class="live-dot"></span> THE 90-DAY BUILD PROGRAM
+                        <span class="eyebrow-line"></span> 2026 EDITION
+                    </div>
+                    <h1>Build your way<br />to <em>AI Engineer.</em></h1>
+                    <p class="hero-lead">
+                        Satu jalur belajar terstruktur dari Python sampai
+                        production-ready AI. Pelajari konsep, bangun sesuatu
+                        setiap hari, dan dokumentasikan progres menjadi
+                        portfolio.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#roadmap" class="btn-primary"
+                            >Mulai perjalanan <span>↗</span></a
+                        >
+                        <button id="continueBtn" class="btn-secondary">
+                            <span class="play-icon">▶</span> Lanjutkan belajar
+                        </button>
+                    </div>
+                    <div class="hero-metrics">
+                        <div><strong>90</strong><span>HARI TERARAH</span></div>
+                        <div><strong>06</strong><span>FASE BELAJAR</span></div>
+                        <div>
+                            <strong>05</strong><span>PORTFOLIO PROJECT</span>
+                        </div>
+                    </div>
+                </div>
+                <aside class="progress-panel">
+                    <div class="panel-head">
+                        <div>
+                            <span class="overline">YOUR LEARNING JOURNEY</span>
+                            <h2>Progress overview</h2>
+                        </div>
+                        <span class="panel-icon">↗</span>
+                    </div>
+                    <div class="progress-number">
+                        <strong id="progressPct">0%</strong
+                        ><span>PROGRAM COMPLETED</span>
+                    </div>
+                    <div class="progress">
+                        <div id="progressBar" class="progress-fill"></div>
+                    </div>
+                    <p id="progressText" class="progress-caption">
+                        0 dari 90 hari selesai. Semangat!
+                    </p>
+                    <div id="phaseProgress" class="phase-progress"></div>
+                    <div class="panel-actions">
+                        <button id="resetBtn" class="text-btn">
+                            Reset progress</button
+                        ><button id="exportBtn" class="text-btn export-btn">
+                            Salin progress ↗
+                        </button>
+                    </div>
+                    <p class="storage-note">
+                        <span>●</span> Progress tersimpan otomatis di browser
+                        ini.
+                    </p>
+                </aside>
+            </div>
+            <div class="hero-bottom container">
+                <span>01 — FROM ZERO TO DEPLOYMENT</span
+                ><span>EST. 2–3 HOURS / DAY</span>
+            </div>
+        </section>
+
+        <main class="container main-content">
+            <section class="intro-section">
+                <div class="section-kicker">START HERE <span> / 01</span></div>
+                <div class="intro-layout">
+                    <h2>Learn the craft.<br /><em>Ship the work.</em></h2>
+                    <div>
+                        <p>
+                            Roadmap ini dirancang sebagai praktik membangun,
+                            bukan sekadar daftar materi. Ikuti urutannya,
+                            kerjakan output setiap hari, lalu simpan hasilnya di
+                            GitHub.
+                        </p>
+                        <div class="principles">
+                            <article>
+                                <span>01</span>
+                                <h3>Ikuti urutan</h3>
+                                <p>
+                                    Bangun fondasi sebelum masuk ke topik yang
+                                    lebih kompleks.
+                                </p>
+                            </article>
+                            <article>
+                                <span>02</span>
+                                <h3>Belajar aktif</h3>
+                                <p>
+                                    Alokasikan waktu untuk teori, coding, dan
+                                    review.
+                                </p>
+                            </article>
+                            <article>
+                                <span>03</span>
+                                <h3>Publish hasil</h3>
+                                <p>
+                                    Dokumentasikan setiap proyek agar menjadi
+                                    bukti kemampuan.
+                                </p>
+                            </article>
+                            <article>
+                                <span>04</span>
+                                <h3>Jaga ritme</h3>
+                                <p>
+                                    Jika tertinggal, lanjutkan dari hari
+                                    terakhir. Konsistensi lebih penting.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="roadmap" class="roadmap-section">
+                <div class="section-heading">
+                    <div>
+                        <div class="section-kicker">
+                            THE CURRICULUM <span> / 02</span>
+                        </div>
+                        <h2>90 days, <em>one clear path.</em></h2>
+                    </div>
+                    <p>
+                        Telusuri materi, buka detail tugas, dan tandai hari yang
+                        sudah selesai.
+                    </p>
+                </div>
+                <div class="roadmap-toolbar">
+                    <label class="search-wrap"
+                        ><span>⌕</span
+                        ><input
+                            id="searchInput"
+                            type="search"
+                            placeholder="Cari topik, tools, atau hari..."
+                    /></label>
+                    <select id="viewSelect" aria-label="Pilih tampilan">
+                        <option value="grid">Grid view</option>
+                        <option value="timeline">List view</option>
+                    </select>
+                    <label class="hide-done"
+                        ><input type="checkbox" id="hideDone" /><span
+                            class="fake-check"
+                        ></span>
+                        Sembunyikan selesai</label
+                    >
+                </div>
+                <div id="filterBar" class="filter-bar"></div>
+                <div id="resultCount" class="result-count"></div>
+                <div id="roadmapList"></div>
+            </section>
+
+            <section id="jadwal" class="rhythm-section">
+                <div class="section-kicker">
+                    MAKE IT A HABIT <span> / 03</span>
+                </div>
+                <div class="rhythm-head">
+                    <h2>A good day<br />has a <em>rhythm.</em></h2>
+                    <p>
+                        Gunakan pembagian waktu ini sebagai panduan. Sesuaikan
+                        dengan jadwal kerja atau kuliah, selama praktik tetap
+                        mendapat porsi utama.
+                    </p>
+                </div>
+                <div class="schedule">
+                    <article>
+                        <span class="time-index">01 / INPUT</span
+                        ><strong>30<span>min</span></strong>
+                        <h3>Learn</h3>
+                        <p>Teori, baca dokumentasi, atau tonton materi.</p>
+                    </article>
+                    <article>
+                        <span class="time-index">02 / PRACTICE</span
+                        ><strong>60<span>min</span></strong>
+                        <h3>Build</h3>
+                        <p>Coding dan selesaikan tantangan hari ini.</p>
+                    </article>
+                    <article>
+                        <span class="time-index">03 / OUTPUT</span
+                        ><strong>30<span>min</span></strong>
+                        <h3>Create</h3>
+                        <p>Kembangkan proyek portfolio secara bertahap.</p>
+                    </article>
+                    <article>
+                        <span class="time-index">04 / REFLECT</span
+                        ><strong>30<span>min</span></strong>
+                        <h3>Review</h3>
+                        <p>Catat insight, rapikan README, push ke GitHub.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="tools" class="toolkit-section">
+                <div class="section-kicker">
+                    YOUR TOOLKIT <span> / 04</span>
+                </div>
+                <div class="toolkit-head">
+                    <h2>Tools of the <em>trade.</em></h2>
+                    <p>
+                        Teknologi yang akan ditemui sepanjang perjalanan
+                        belajar.
+                    </p>
+                </div>
+                <div class="tools-grid">
+                    <span>Python</span><span>NumPy</span><span>Pandas</span
+                    ><span>Scikit-learn</span><span>PyTorch</span
+                    ><span>Hugging Face</span><span>LangChain</span
+                    ><span>LangGraph</span><span>Chroma / Pinecone</span
+                    ><span>Docker</span><span>FastAPI</span><span>MLflow</span
+                    ><span>OpenAI API</span>
+                </div>
+            </section>
+
+            <section class="portfolio-section">
+                <div class="section-kicker">
+                    PROOF OF WORK <span> / 05</span>
+                </div>
+                <div class="portfolio-head">
+                    <h2>Build things<br /><em>worth showing.</em></h2>
+                    <p>
+                        Lima milestone proyek untuk mengubah materi menjadi
+                        bukti keterampilan yang bisa ditunjukkan.
+                    </p>
+                </div>
+                <div class="project-list">
+                    <article>
+                        <span>01</span>
+                        <div>
+                            <h3>Churn Prediction</h3>
+                            <p>ML end-to-end + README</p>
+                        </div>
+                        <small>DAY 27</small><b>↗</b>
+                    </article>
+                    <article>
+                        <span>02</span>
+                        <div>
+                            <h3>Analisis Sentimen</h3>
+                            <p>BERT fine-tuning</p>
+                        </div>
+                        <small>DAY 44</small><b>↗</b>
+                    </article>
+                    <article>
+                        <span>03</span>
+                        <div>
+                            <h3>RAG Chatbot Dokumen PDF</h3>
+                            <p>Vector database + LLM</p>
+                        </div>
+                        <small>DAY 57</small><b>↗</b>
+                    </article>
+                    <article>
+                        <span>04</span>
+                        <div>
+                            <h3>AI Agent Customer Service</h3>
+                            <p>Tool calling</p>
+                        </div>
+                        <small>DAY 68</small><b>↗</b>
+                    </article>
+                    <article>
+                        <span>05</span>
+                        <div>
+                            <h3>Capstone: AI App Production</h3>
+                            <p>Deploy live + demo video</p>
+                        </div>
+                        <small>DAY 81–85</small><b>↗</b>
+                    </article>
+                </div>
+            </section>
+
+            <section id="faq" class="faq-section">
+                <div class="section-kicker">
+                    GOOD TO KNOW <span> / 06</span>
+                </div>
+                <div class="faq-layout">
+                    <h2>Questions<br /><em>before takeoff.</em></h2>
+                    <div class="faq-list">
+                        <details>
+                            <summary>
+                                Apakah harus bisa matematika berat?<span
+                                    >＋</span
+                                >
+                            </summary>
+                            <p>
+                                Tidak harus jago kalkulus tingkat lanjut. Pahami
+                                intuisi: gradient, probabilitas, dan aljabar
+                                linear dasar sudah cukup untuk mulai.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>
+                                Butuh laptop spek tinggi?<span>＋</span>
+                            </summary>
+                            <p>
+                                Tidak. Laptop biasa + Google Colab (GPU gratis)
+                                sudah cukup. GPU berbayar baru perlu di Fase
+                                4–5.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>
+                                Kapan bisa apply kerja?<span>＋</span>
+                            </summary>
+                            <p>
+                                Target Hari 86–90. Tapi kamu bisa mulai apply
+                                magang / freelance sejak Hari 57 setelah RAG
+                                chatbot selesai.
+                            </p>
+                        </details>
+                        <details>
+                            <summary>
+                                Kalau tertinggal beberapa hari?<span>＋</span>
+                            </summary>
+                            <p>
+                                Jangan kejar semua sekaligus. Lanjutkan dari
+                                hari terakhir, dan anggap roadmap ini 90 hari
+                                aktif, bukan 90 hari kalender.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container footer-inner">
+                <a class="brand" href="#"
+                    ><span class="brand-mark">ai<span>.</span></span
+                    ><span class="brand-copy"
+                        >FIELD GUIDE <b> / AI ENGINEER</b></span
+                    ></a
+                >
+                <p>Made for curious minds who build.</p>
+                <span>90-DAY LEARNING PATH <b>© 2026</b></span>
+            </div>
+        </footer>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
